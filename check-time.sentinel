@@ -1,0 +1,5 @@
+import "time"
+
+main = rule {
+	time.hour < 11
+}
