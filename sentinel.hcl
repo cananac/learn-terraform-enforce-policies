@@ -3,5 +3,5 @@ policy "allowed-terraform-version" {
 }
 
 policy "check-time" {
- enforcement-level = "mandatory"
+ enforcement-level = "hard-mandatory"
 }
